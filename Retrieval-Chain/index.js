@@ -69,7 +69,7 @@ const retrievalChain = await createRetrievalChain({
 import { ChatOpenAI } from "@langchain/openai";
 
 const chatModel = new ChatOpenAI({
-    openAIApiKey: "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",
+    openAIApiKey: "Your-openai-api-key",
 });
 
 const result = retrievalChain.pipe(chatModel)

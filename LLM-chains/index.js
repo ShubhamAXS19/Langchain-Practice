@@ -1,7 +1,7 @@
 import { ChatOpenAI } from "@langchain/openai";
 
 const chatModel = new ChatOpenAI({
-  openAIApiKey: "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",
+  openAIApiKey: "your-openai-api-key",
 });
 
 import { ChatPromptTemplate } from "@langchain/core/prompts";
